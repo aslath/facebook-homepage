@@ -72,6 +72,8 @@ label{
 .right-section select{
     float: left;
     height: 30px;
+    border-style: solid;
+    border-width: 1px;
     border-color: #7695d8;;
     margin-right: 5px;
 }
