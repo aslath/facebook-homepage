@@ -1,0 +1,48 @@
+.header{
+    background-color: #3b5998;
+    height: 100px;
+    width:100%;
+    display: flex;
+}
+
+.logo{
+    display: flex;
+    flex:1.5;
+    justify-content: start;
+    align-items: last baseline;
+    padding-left: 30px;
+    height: 100%;
+}
+
+.login{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    padding-top: 10px;
+    flex:1;
+}
+
+.header td{
+    font-size: 14px;
+    color: white;
+    padding-right: 10px;    
+}
+
+.forgot-link{
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+}
+
+.login-field{
+    width: 150px;
+    height: 18px;
+}
+
+.login-button{
+    height: 22px;
+    width: 60px;
+    background-color: #4267b2;
+    border-color: #29487d;
+    color: white;
+}

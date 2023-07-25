@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    font-family:  sans-serif;;
+}
+
+.main-body{
+    background: linear-gradient(white, #D3D8E8);
+    height: 600px;
+    width: 100%;
+    display: flex;
+}
+
+.left-section{
+    display: flex;
+    flex:1.5;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.left-section p,
+.signup{
+    font-size: 25px;
+    width: 500px;
+    color:  #3b5998;
+} 
+
+.left-section img{
+    width: 500px;
+} 
+
+.right-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    padding-top: 10px;
+    flex:1;
+}
+
+label{
+    font-size: 16px;
+    color:  #3b5998;
+}
+
+.right-section hr{
+    background:  #3b5998;
+    width: 400px;
+    margin: 0;
+}
+
+.right-section p{
+    margin-bottom: 0;
+}
+
+.right-section td{
+    padding-top: 10px;
+    text-align: right;
+    font-size: 16px;
+    color:  #3b5998;
+    
+}
+
+.input-field{
+    width: 285px;
+    height: 25px;
+    border-color: #3b5998;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.right-section select{
+    float: left;
+    height: 30px;
+    border-color: #3b5998;
+    margin-right: 5px;
+}
+
+td.birthday-link{
+    padding-top: 5px;
+}
+.why-birthday{
+    text-decoration: none;
+    float: left;
+    color: #3b5998;
+    font-size: 12px;
+}
+td p{
+    width: 285px;
+    font-size: 12px;
+    color: black;
+    text-align: left;
+    margin: 0;
+}
+
+.signup-button{
+    background-color: rgb(15, 171, 77);
+    float: left;
+    height: 30px;
+    width: 120px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #3b5998;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+a{
+    text-decoration: none;
+}
+
